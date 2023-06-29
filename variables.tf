@@ -11,12 +11,12 @@ variable "GOOGLE_PROJECT" {
 }
 
 variable "GKE_NUM_NODES" {
-  default     = 1
+  default     = 2
   description = "Number of nodes in the GKE cluster"
   type        = number
 }
 
-variable "GIHUB_OWNER" {
+variable "GITHUB_OWNER" {
   type        = string
   description = "Github owner repository to use"
 }
